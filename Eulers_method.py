@@ -1,4 +1,4 @@
-##Composite Trapezoidal Rule
+##Euler's method
 
 
 #Package imports
@@ -36,7 +36,7 @@ while i < N:
     y1 = y0 + h*(-15*y0)
 
     plt.plot([x0,x1],[y0,y1])
-    plt.draw
+    plt.draw()
     x0 = x1
     y0 = y1
 
